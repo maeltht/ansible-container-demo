@@ -1,0 +1,14 @@
+[local]
+localhost       ansible_control=local
+
+
+[webapp]
+
+172.17.0.3
+172.17.0.4
+
+
+[db]
+
+172.17.0.5
+172.17.0.6
