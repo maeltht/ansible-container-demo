@@ -1,0 +1,7 @@
+---
+mysql_root_password: "school1"
+app_user: "root"
+http_host: "d9898b9275ce"
+http_conf: "d9898b9275ce.conf"
+http_port: "80"
+disable_default: true
