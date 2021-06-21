@@ -34,6 +34,11 @@
         state: link
       notify: Restart Nginx
 
+  # UFW Configuration
+    - name: Install ufw
+      apt: name={{ item }} update_cache=no state=latest force_apt_get=yes
+      loop: [ 'ufw' ]  
+      
     - name: Allow all access to tcp port 8080
       ufw:
         rule: allow
